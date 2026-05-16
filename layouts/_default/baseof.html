@@ -9,6 +9,8 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="alternate" type="application/rss+xml" href="/atom.xml" title="{{ site.Title }}">
+  {{/* GA4 snippet — emits nothing unless services.googleAnalytics.ID is set in hugo.toml */}}
+  {{ template "_internal/google_analytics.html" . }}
 </head>
 <body>
   <header>

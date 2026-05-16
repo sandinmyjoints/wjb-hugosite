@@ -40,3 +40,8 @@ endLevel = 3
 [taxonomies]
 tag = "tags"
 category = "categories"
+
+# Google Analytics 4. Set ID to "G-XXXXXXXX" to activate; leave empty for no tracking.
+# Hugo's built-in template emits gtag.js when ID is set, nothing when blank.
+[services.googleAnalytics]
+ID = "G-TX92LW47X4"
