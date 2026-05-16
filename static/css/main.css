@@ -134,6 +134,24 @@ pre code {
   padding: 0;
 }
 
+/* Break code blocks wider than the 38rem prose column on roomy screens.
+   Hugo wraps syntax-highlighted code in <div class="highlight">; bare <pre>
+   covers code blocks that aren't highlighted. The media query keeps narrow
+   viewports clean (no horizontal overflow). */
+.highlight,
+pre:not(.chroma) {
+  margin-left: -4rem;
+  margin-right: -4rem;
+}
+
+@media (max-width: 44rem) {
+  .highlight,
+  pre:not(.chroma) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 blockquote {
   border-left: 3px solid var(--rule);
   margin: 1rem 0;
