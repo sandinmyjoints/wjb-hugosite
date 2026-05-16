@@ -6,8 +6,9 @@ date: 2010-09-19
 By day, I get to work with incredibly smart, talented, and all-around great
 people at [Curiosity Media](http://www.curiositymedia.com) (now part of
 [IXL](https://www.ixl.com/)), where I'm an engineer for [SpanishDict.com](http://www.spanishdict.com) (también [en
-español](http://www.ingles.com)!), the world's largest Spanish-English
-language learning and reference website.
+español](http://www.ingles.com)! & [French](https://www.frenchdictionary.com)
+/ [le français](www.anglais.com)), the world's best
+language learning and reference websites.
 
 I divide the rest of my time between working on my own
 [projects](#projects-talks-etc), both software and otherwise; hiking and
@@ -26,19 +27,19 @@ the easiest, simplest Gmail AI extension (no prompts!).
 [Nicer.email](https://chrome.google.com/webstore/detail/niceremail-easiest-chatgp/abncbkabpogmedlafpfdfafnfkafieke?hl=en&authuser=0) is
 the easiest, simplest Gmail AI extension (no prompts!).
 
-### [equivalency](https://github.com/spanishdict/equivalency)
+### [equivalency](https://github.com/sandinmyjoints/equivalency)
 
 Declaratively define rules for string equivalence so you can focus on the differences that matter.
 
-### [anybar-webpack-plugin](https://github.com/sandinmyjoints/anybar-webpack-plugin)
+### [anybar-webpack-plugin](https://github.com/sandinmyjoints/anybar-webpack-plugin) and [rollup-plugin-anybar](https://github.com/sandinmyjoints/rollup-plugin-anybar)
 
-Webpack build status indicator using [Anybar](https://github.com/tonsky/AnyBar).
+Webpack build status indicators using [Anybar](https://github.com/tonsky/AnyBar).
 
 ### [ema-stream](https://github.com/sandinmyjoints/ema-stream)
 
 A Node module and command line tool to calculate an [exponential moving average from a stream](https://github.com/sandinmyjoints/ema-stream).
 
-### [If everyone would](https://twitter.com/ifeveryonewould)
+### [If everyone would](https://twitter.com/ifeveryonewould) (RIP)
 
 A Twitter bot that helpfully retweets tweets containing the phrase "if everyone would".
 [Source](https://github.com/sandinmyjoints/ifeveryonewould).
