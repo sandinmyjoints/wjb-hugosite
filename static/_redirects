@@ -1,0 +1,6 @@
+# Cloudflare Pages redirects. Format: source destination status
+# Old section pages collapsed into /about/
+/projects        /about/   301
+/projects/       /about/   301
+/publications    /about/   301
+/publications/   /about/   301

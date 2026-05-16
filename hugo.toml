@@ -1,0 +1,42 @@
+baseURL = "https://williambert.online/"
+languageCode = "en-us"
+title = "William Bert"
+author = "William Bert"
+copyright = "William Bert"
+enableRobotsTXT = true
+enableEmoji = true
+pluralizeListTitles = false
+summaryLength = 30
+
+[params]
+description = "William Bert is a software engineer and writer living in New York."
+
+# Generate /atom.xml at site root (preserves old subscriber URLs)
+[outputs]
+home = ["html", "rss"]
+section = ["html", "rss"]
+
+[outputFormats.RSS]
+mediatype = "application/rss+xml"
+baseName = "atom"
+
+# Preserve Hexo URL structure: /:year/:month/:slug/
+[permalinks]
+posts = "/:year/:month/:slug/"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+style = "github"
+lineNos = true
+lineNumbersInTable = false
+noClasses = false
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
+
+[taxonomies]
+tag = "tags"
+category = "categories"

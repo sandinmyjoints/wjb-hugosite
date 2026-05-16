@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{/* Single page. Used for individual posts and the about page. */}}
+<article>
+  <header>
+    <h2>{{ .Title }}</h2>
+    {{ if eq .Section "posts" }}
+    <p class="post-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      {{ with .Params.tags }}
+        &middot; {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="/tags/{{ $t | urlize }}/">{{ $t }}</a>{{ end }}
+      {{ end }}
+    </p>
+    {{ end }}
+  </header>
+  {{ .Content }}
+</article>
+{{ end }}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{{/* Base template. Every page inherits from this. */}}
+{{/* Files in /static/ are served verbatim at the site root: /static/css/main.css → /css/main.css */}}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} &middot; {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" title="{{ site.Title }}">
+</head>
+<body>
+  <header>
+    <h1 class="site-title"><a href="/">{{ site.Title }}</a></h1>
+    <nav>
+      <a href="/">posts</a>
+      <a href="/about/">about</a>
+      <a href="/atom.xml">feed</a>
+    </nav>
+  </header>
+  <main>
+    {{/* The "main" block is filled in by home.html, single.html, or list.html */}}
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    <p>&copy; {{ now.Year }} {{ site.Params.author }}</p>
+  </footer>
+</body>
+</html>
