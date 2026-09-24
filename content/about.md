@@ -16,11 +16,15 @@ backpacking; cooking and grilling; and enjoying the company of my
 wife and daughters. I also write, both [blog posts](/) and [fiction and
 essays](#publications) now and then.
 
-My most recent project is
-[Nicer.email](https://chrome.google.com/webstore/detail/niceremail-easiest-chatgp/abncbkabpogmedlafpfdfafnfkafieke?hl=en&authuser=0),
-the easiest, simplest Gmail AI extension (no prompts!).
-
 ## Projects, Talks, Etc.
+### [GoTasks Next](https://apps.apple.com/app/gotasks-next/id6807889891)
+
+GoTasks was a simple, elegant, boring (in a good way!) task list iOS app
+backed by Google Tasks that I used for many years, but which finally
+disappeared from the App Store a few years ago. With Claude, I built [GoTasks
+Next](https://apps.apple.com/app/gotasks-next/id6807889891), which does all
+that GoTasks did and more (unified list view, repeating tasks, scheduled
+reminders, widgets).
 
 ### [Nicer.email](https://chrome.google.com/webstore/detail/niceremail-easiest-chatgp/abncbkabpogmedlafpfdfafnfkafieke?hl=en&authuser=0)
 
